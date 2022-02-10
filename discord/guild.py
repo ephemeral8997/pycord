@@ -609,7 +609,7 @@ class Guild(Hashable):
         """:class:`Member`: Similar to :attr:`Client.user` except an instance of :class:`Member`.
         This is essentially used to get the member version of yourself.
         """
-        self_id = self._state.user.id
+        self_id = self._state.self_id
         # The self member is *always* cached
         return self.get_member(self_id)  # type: ignore
 
