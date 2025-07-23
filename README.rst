@@ -1,3 +1,9 @@
+.. warning::
+
+   ⚠️ **This project is archived and no longer maintained.**
+   This fork of `pycord` was active during 2021–2022, but is now frozen in time and left untouched 
+   as a historical snapshot of a personal GitHub chapter.
+
 Pycord
 ======
 
